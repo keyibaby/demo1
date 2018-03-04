@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//WebRoot/encrypt.jsp=UTF-8
+encoding//WebRoot/js/encrypt.js=UTF-8
+encoding//WebRoot/js/login.js=UTF-8
+encoding//WebRoot/js/register.js=UTF-8
+encoding//WebRoot/login.jsp=UTF-8
+encoding//WebRoot/loginForm.jsp=UTF-8
+encoding//WebRoot/register.jsp=UTF-8
+encoding//src/com/demo/util/DESUtil.java=UTF-8
+encoding//src/com/demo/util/TelUtil.java=UTF-8

@@ -1,0 +1,55 @@
+
+/*自定义导航样式*/
+
+
+/* ----------------一级导航---------------- */
+
+
+/*修改整体*/
+
+#customed_nav {
+    background: #4CAF50;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*修改每个导航*/
+
+#customed_nav .layui-nav-item a {
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    padding: 0 50px;
+}
+
+/*修改下面的小条（选中、hover时）*/
+
+#customed_nav .layui-this:after, #customed_nav .layui-nav-bar, #customed_nav .layui-nav-tree .layui-nav-itemed:after {
+    background-color: #00BCD4;
+    height: 15px;
+}
+
+/* ----------------子导航---------------- */
+
+
+/*子导航 整体*/
+
+#customed_nav .layui-nav-child {
+    padding: 0;
+    border: 10px solid purple;
+}
+
+/*每个子导航：鼠标没有悬浮*/
+
+#customed_nav .layui-nav-child dd a {
+    color: red;
+    background: blue;
+    border-bottom: 3px solid black
+}
+
+/*每个子导航：鼠标悬浮时*/
+
+#customed_nav .layui-nav-child dd a:hover {
+    color: black;
+    background: red;
+}

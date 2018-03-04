@@ -1,0 +1,28 @@
+﻿
+
+/*颜色*/
+#part-color li{
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+/*动画*/
+#part-anim>div>div {
+    padding: 0 5px;
+    line-height: 35px;
+    height: 35px;
+    display: inline-block;
+    background: green;
+    vertical-align: top;
+    color: white;
+    background: #00BCD4;
+}
+
+
+/*按钮*/
+#part-button>div {
+    margin-top: 10px;
+    display: inline-block;
+}

@@ -1,0 +1,23 @@
+body>div {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    color: #333;
+    font-size: 14px;
+}
+body>div>h2 {
+    font-family: '微软雅黑';
+    font-size: 28px;
+    font-weight: bold;
+    color: #364850;
+    border-top: 5px solid #d4d4d4;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+body>div>p {
+    font-family: '宋体';
+    font-size: 16px;
+    color: #2a414c;
+    line-height: 28px;
+}

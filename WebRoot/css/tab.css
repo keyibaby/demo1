@@ -1,0 +1,58 @@
+
+/*自定义tab样式*/
+/*
+    自定义tab样式:整体;
+*/
+
+#customed_tab {
+    border: 5px solid #ead;
+}
+
+/*
+
+    自定义tab样式:tab-title;
+
+*/
+
+
+/* tab-title整体*/
+
+#customed_tab ul.layui-tab-title {
+    text-align: center;
+    padding: 25px;
+    background: #ace;
+}
+
+/* tab-title中：没有选中的页签*/
+
+#customed_tab ul.layui-tab-title li {
+    background: white;
+    color: #2196F3;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+/* tab-title中：当前选中的页签*/
+
+#customed_tab ul.layui-tab-title li.layui-this {
+    background: #2196F3;
+    color: white;
+    font-weight: bold;
+}
+
+/* tab-title中：当前选中页签周围的一圈*/
+
+#customed_tab ul.layui-tab-title .layui-this:after {
+    display: none;
+}
+
+
+/*
+
+    自定义tab样式:tab-content;
+    
+*/
+
+#customed_tab ul.layui-tab-content {
+    padding: 30px;
+}
